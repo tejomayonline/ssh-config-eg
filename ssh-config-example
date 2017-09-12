@@ -1,0 +1,27 @@
+#activehacker account
+Host tejohub
+	HostName github.com
+	User git
+	IdentityFile ~/.ssh/tejohub
+
+#jexchan account
+Host tejobit
+	HostName bitbucket.org
+	User git
+	IdentityFile ~/.ssh/tejobit
+
+Host srijan
+        HostName github.com
+        User git
+        IdentityFile ~/.ssh/yo
+
+Host do
+        HostName digitalocean.com
+        User ubuntu
+        IdentityFile ~/.ssh/do
+
+Host gitlab.com
+        HostName gitlab.com
+        User git
+        IdentityFile ~/.ssh/best
+
